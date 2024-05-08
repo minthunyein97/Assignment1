@@ -1,0 +1,21 @@
+.container{
+    border: 0px solid red;
+}
+.container > div{
+    width: 30vh;
+    text-align: center;
+    border: 1px solid wheat;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px black;
+    overflow: hidden;
+}
+.container > div > button{
+    width: 30vh;
+    height: 35px;
+    background-color:#44dfea;
+    color: #ffffff;
+    border:0px;
+    overflow: hidden;
+    cursor:pointer;
+}
